@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio website</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a153d8892b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="hero">
@@ -12,10 +13,10 @@
         <img src="images/logo1.jpg" class="logo">
         <ul>
             <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">HIRE ME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
         </ul>
        </nav>
        <div class="details">
@@ -31,5 +32,158 @@
             <img src="images/meeee.png" class="meeee">
        </div>
     </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/jp.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>               
+                        "Hello! I'm John Paul, a versatile designer and developer passionate about both graphic design and <br>
+                        software development. With a knack for visual storytelling and a keen eye for detail, I specialize in <br>
+                        creating captivating graphics that communicate powerful messages. Simultaneously, I thrive in the world <br>
+                        of software design, where I craft user-centric digital experiences by blending creativity with technical expertise. <br>
+                        My goal is to merge innovative design concepts with robust software solutions, ensuring both visual appeal and seamless functionality. <br>
+                        I'm eager to collaborate on projects that demand a blend of aesthetic finesse and technical precision." 
+                    </p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skils')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id= "skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Androids/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id= "experience">
+                <ul>
+                    <li><span>2023</span><br>Training at MSUN</li>
+                    <li><span>2023</span><br>Develope Cemetery Information Management System</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id= "education">
+            <ul>
+                <li><span>2023</span><br>BSIT Major in Database at MSUN</li>
+            </ul>
+            </div>
+        </div>
+            </div>
+        </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design is the artful fusion of visual aesthetics, user-centric functionality,
+                         and technical prowess, crafting engaging digital experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX design harmonizes intuitive interfaces with seamless user experiences,
+                         ensuring interaction and usability are at the core of digital products.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>App design intricately weaves together functionality and aesthetics to create
+                         user-centered experiences within digital applications.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>A social media app serves as br a dynamic platform fostering <br>connections, <br>
+                             content sharing, and community engagement through innovative <br> digital interactions.</p>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work1.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>A music app curates personalized listening experiences, <br>
+                             offering a seamless interface for discovering, organizing, <br>
+                             and enjoying diverse audio content across genres and artists.</p>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work1.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>An online shopping app provides a user-friendly platform for <br> seamless browsing,
+                            purchasing, and secure  <br>transactions, revolutionizing the way users <br>
+                            shop for a wide range of products from their devices.</p>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> johnpaulcornel1122@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 09611886747</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook-messenger"></i></a>
+                        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right"></div>
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn1">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Paul, Made with Love by JP</p>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
 </body>
 </html>
